@@ -1,4 +1,7 @@
+export const ADMIN_ROLE_ID = '912473408577609778';
 export const MODERATOR_ROLE_ID = '912474048775221270';
+export const ORGANIZER_ROLE_ID = '912474170594582568';
+export const GUEST_HOSTS_ROLE_ID = '912473798085836821';
 export const LADIES_LOUNGE_ROLE_ID = '935435362984161292';
 export const ONBOARDING_ROLE_ID = '932906028725571594';
 export const BOTS_ROLE_ID = '931394368949067796';
@@ -13,6 +16,8 @@ export const LGBTQ_CHANNEL_ID = '935434313183404062';
 export const INTEREST_JOIN_MESSAGE_ID = '935078311351177256';
 export const DISCUSSION_JOIN_MESSAGE_ID = '935080771536953394';
 
+export const GUILD_ID = '912461362289061939';
+
 export const commandNames = {
   user: {
     onboardLGBTQ: 'taste_the_rainbow',
@@ -22,5 +27,8 @@ export const commandNames = {
   channel: {
     create: 'create_channel',
     delete: 'delete_channel',
+  },
+  server: {
+    sync: 'sync_server',
   },
 };
